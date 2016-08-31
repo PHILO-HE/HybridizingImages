@@ -1,1 +1,1 @@
-Hybridizing LowFrequency Image and HighFrequency Image by OpenCV
+Hybridizing Low-frequency Image and High-frequency Image with OpenCV
