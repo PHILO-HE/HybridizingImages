@@ -4,4 +4,4 @@ Hybridizing Low-frequency Image and High-frequency Image with OpenCV
      
 2. 由于OpenCV中没有产生滤波核的函数，我利用MatLab中的fspecial()产生滤波核，将生成的高斯滤波矩阵数据存放在txt文件中，来用于OpenCV中。
   
-3. 编译运行需要有保存高斯滤波核矩阵的两个文件ansHigh.txt ansLow.txt，分别用于高通滤波与低通滤波。
+3. 编译运行需要有保存高斯滤波核矩阵的两个文件ansHigh.txt & ansLow.txt，分别用于高通滤波与低通滤波。
