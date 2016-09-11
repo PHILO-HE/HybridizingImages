@@ -1,5 +1,4 @@
 
-
     #include <highgui.h>  
     #include <cv.h>  
     #include <opencv2/core/core.hpp>    
@@ -191,7 +190,6 @@
     
      return 0;  
     } 
-     
     else
      {
       cout<<"ERROR! We can only tackle images with 1 or 3 channels!\n";
@@ -199,7 +197,6 @@
      }
      
    } 
-    
     
     /********自定义的滤波函数，频域操作**********/
     void myFilter(CvMat* A,CvMat* B,char s[])   
@@ -241,10 +238,7 @@
     cvReleaseMat( &dft_A );  
     cvReleaseMat( &dft_B ); 
    }
-       
-       
-       
-       
+    
     /*******将高通与低通结果混合，alpha为高频图像的系数******/   
     void ImagesAdd(double alpha)  
    {
@@ -265,9 +259,6 @@
     cvReleaseImage(&dst);
     cvDestroyWindow("Result");
    }
-    
-    
-    
     
     /******将三个单通道图像merge为单个三通道图像*******/
     void MyMerge(char name1[],char name2[],char name3[],char nameMerge[])  
